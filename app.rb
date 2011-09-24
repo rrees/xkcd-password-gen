@@ -1,5 +1,9 @@
 require 'sinatra'
+require 'slim'
+require 'redcloth'
+
+require './password'
 
 get '/' do
-  "Hello World!"
+	slim :index, :locals => {:passwords => passwords()}
 end

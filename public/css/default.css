@@ -1,0 +1,19 @@
+body {
+  width: 80%;
+  font-family: sans-serif;
+  margin: auto;
+}
+.passwords li {
+  border: lightgray 1px double;
+  padding: 0.5em;
+  display: inline-block;
+  margin-right: 1em;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 2px 3px;
+  margin-bottom: 1em;
+}
+.passwords li:last-child {
+  margin-left: 3em;
+  width: 10em;
+}
