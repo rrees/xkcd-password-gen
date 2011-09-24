@@ -11,11 +11,16 @@ end
 
 def password()
 	password_tokens = [
-		["badger", "dog", "frog", "butterfly"],
-		["happy", "sad", "lonely", "funny"],
-		["battery", "staple", 'truck', 'pylon'],
-		["cheese", "carrot", "soup", "liquor"],
+		["badger", "dog", "frog", "butterfly", "cat", "camel", "mouse", "fish", "shark", 'koala', 'bat'],
+		["happy", "sad", "lonely", "funny", "crying", "mean"],
+		["battery", "staple", 'screwdriver', 'pylon', 'book', 'cell'],
+		["cheese", "carrot", "soup", "liquor", "sausage", "treacle", "nuts"],
 		["starlit", "darkness", "frosty"],
+		["truck", "car", "bicycle", "train", "plane", "boat"],
+		["tree", "flower", "cactus"],
+		['theatre', 'museum', 'laundry', 'house', 'hut'],
+		['lime', 'lemon', 'mango', 'grapefruit', 'orange', 'apple'],
+		['sailor', 'doctor', 'driver', 'fireman', 'conductor']
 	]
 	return password_tokens.sample().sample()
 end
