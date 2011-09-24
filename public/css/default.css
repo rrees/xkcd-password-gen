@@ -13,6 +13,7 @@ body {
   border-radius: 10px 0;
   margin-bottom: 1em;
   background-image: -moz-radial-gradient(farthest-corner, white 80%, lightgray 100%);
+  background-image: -webkit-radial-gradient(farthest-corner, white 80%, lightgray 100%);
 }
 .passwords li:last-child {
   margin-left: 3em;
@@ -20,7 +21,7 @@ body {
   color: white;
   background-color: green;
   background-image: none;
-  text-shadow: 2px 1px #888;
+  text-shadow: 3px 1px #888;
   border-radius: 1px;
   border: solid 1px darkgreen;
 }
