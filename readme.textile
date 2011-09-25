@@ -1,0 +1,11 @@
+h1. Humane password generator
+
+Inspired by xkcd this is an application to generate memorable, significant passwords. You can "see it in action":http://xkcd-password-gen.heroku.com.
+
+h2. Usage
+
+It would probably be wise to create your own lists of significant words in @password.rb@ and deploy your own version to Heroku.
+
+h2. License
+
+GPL v3 licensed.
