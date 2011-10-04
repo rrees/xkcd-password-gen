@@ -22,6 +22,7 @@ def password()
 		['lime', 'lemon', 'mango', 'grapefruit', 'orange', 'apple'],
 		['sailor', 'doctor', 'driver', 'fireman', 'conductor', 'reporter'],
 		['singing', 'dancing', 'running'],
+		['trumpet', 'horn', 'piano', 'drum'],
 	]
 	return password_tokens.sample().sample()
 end
