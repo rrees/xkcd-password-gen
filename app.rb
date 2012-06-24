@@ -4,5 +4,6 @@ require 'slim'
 require './password'
 
 get '/' do
-	slim :index, :locals => {:passwords => passwords()}
+  passwords = passwords()
+	slim :index, :locals => {:passwords => passwords, :password_string => passwords.to_a.join(" ")}
 end
