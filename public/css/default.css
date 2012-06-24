@@ -3,6 +3,14 @@ body {
   font-family: sans-serif;
   margin: auto;
 }
+textarea {
+  height: 2em;
+  line-height: 2em;
+  width: 30em;
+  padding: 0.5em;
+  text-align: center;
+  vertical-align: middle;
+}
 .passwords li {
   border: lightgray 1px double;
   padding: 0.5em;
